@@ -59,9 +59,9 @@ const ProfilePage = () => {
 					<h1 className='text-3xl font-bold text-gray-900 mb-4'>Hello, {userProfile?.username}</h1>
 					<div className='bg-white shadow rounded-lg p-6'>
 						<div>
-							<h2 className='text-lg font-semibold text-gray-800'>
+							{/* <h2 className='text-lg font-semibold text-gray-800'>
 								<Counter />
-							</h2>
+							</h2> */}
 						</div>
 						<div className='text-gray-700'>
 							{userProfile ? (
